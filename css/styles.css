@@ -1,6 +1,4 @@
-<style>
-
-
+    
     :root {
         --brand-color: #ffffff;
     }
@@ -23,7 +21,7 @@
        background-color: #ffffff;
        font-family: "Raleway";
        font-size: 26px;
-       line-height: 1,17;
+       line-height: 1,17em;
        letter-spacing: 0,03em;
     }
 
@@ -59,15 +57,17 @@
     
 
     .index-button {
-        color: #000000;
+        display: block;
+        color: #F5F4FA;
         background-color: #2196F3;
         font-family: 'Roboto';
         font-size: 16px;
         font-weight: 700;
         line-height: 1,875em;
-        letter-spacing:0,06em;
+        letter-spacing: 0,06em;
         text-decoration: none;
         text-align: center;
+        border: 0px;
         border-radius: 4px;
         padding: 10px;
         margin: 10px;
@@ -75,7 +75,15 @@
     }
 
 
-    .portfolio-button>li {
+    .index-button:hover {
+        background-color: #2196f3;
+        cursor: grab;
+        text-decoration: underline;
+        text-decoration-color: #2196f3;
+    }
+
+
+    .portfolio-button {
         color: #000000;
         background-color: #F5F4FA;
         font-family: 'Roboto';
@@ -83,6 +91,7 @@
         font-weight: 500;
         text-decoration: none;
         text-align: center;
+        border: 0px;
         border-radius: 4px;
         padding: 10px;
         margin: 10px;
@@ -90,9 +99,10 @@
     }
     
 
-    .portfolio-button>li:hover {
+    .portfolio-button:hover {
         background-color:#2196f3;
-        cursor: pointer;
+        color:#ffffff;
+        cursor: grab;
         text-decoration: underline;
         text-decoration-color: #2196f3;
     }
@@ -101,6 +111,7 @@
     .social-links .link:hover,
     .social-links .link:focus {
         color: #2196f3;
+        cursor: grab;
     }
 
 
@@ -115,6 +126,7 @@
     .social-links .link:hover,
     .social-links .link:focus {
         color:#2196f3;
+        cursor: grab;
     }
 
 
@@ -144,7 +156,6 @@
 
     .info1 {
         color: #757575;
-        background-color: #ffffff;
     }
 
 
@@ -152,6 +163,7 @@
         color: #ffffff;
         background-color: #2F303A;
     }
+
     
     .info3 {
         color: rgba(255, 255, 255, 0.6);
@@ -159,11 +171,23 @@
         }
     
 
+    .footer-background-color {
+        background-color: #2F303A;
+    }
+
+
 
         /* Only in index.html */
 
 
             /* h1 */
+
+
+    .background-section-h1 {
+        background-color: #2f303a;
+    }
+
+
     .text-index {
         font-size: 44px;
         font-weight: 900;
@@ -241,6 +265,12 @@
     }
 
 
+    .section-background-color {
+        background-color: #F5F4FA;
+    }
+
+
+
         /* Only in Portfolio */
 
 
@@ -275,4 +305,10 @@
         background-color: #ffffff;
     }
 
-</style>
+
+
+/* Flexbox */
+
+    .container {
+        flex-basis: 1200px;
+    }
