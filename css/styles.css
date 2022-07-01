@@ -309,6 +309,14 @@
 
 /* Flexbox */
 
+
     .container {
         flex-basis: 1200px;
     }
+
+
+    .section {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    
