@@ -77,7 +77,7 @@
 
     .index-button:hover {
         background-color: #2196f3;
-        cursor: grab;
+        cursor: pointer;
         text-decoration: underline;
         text-decoration-color: #2196f3;
     }
@@ -102,7 +102,7 @@
     .portfolio-button:hover {
         background-color:#2196f3;
         color:#ffffff;
-        cursor: grab;
+        cursor: pointer;
         text-decoration: underline;
         text-decoration-color: #2196f3;
     }
@@ -111,7 +111,7 @@
     .social-links .link:hover,
     .social-links .link:focus {
         color: #2196f3;
-        cursor: grab;
+        cursor: pointer;
     }
 
 
@@ -119,20 +119,21 @@
         text-decoration: none;
         color: #000000;
         background-color: #ffffff;
-        cursor:pointer;
+        cursor: pointer;
     }
  
 
     .social-links .link:hover,
     .social-links .link:focus {
         color:#2196f3;
-        cursor: grab;
+        cursor: pointer;
     }
 
 
 
     .list {
         list-style-type: none;
+        display: inline-block;
     }
 
 
@@ -309,9 +310,18 @@
 
 /* Flexbox */
 
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
 
     .container {
+        display: flex;
         flex-basis: 1200px;
+        margin-right: auto;
+        margin-left:auto;
     }
 
 
@@ -319,4 +329,65 @@
         padding-top: 94px;
         padding-bottom: 94px;
     }
+
+
+
+    .section1 {
+        padding-top: 94px;
+        padding-bottom: 94px;
+        flex-direction: column;
+    }
+
+
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left:215px;
+        margin-right: 227px;
+    }
+
+    .header-item {
+        margin-left: 93px;
+    }
+
+
+    .item {
+        display: flex;
+        align-items: center;   
+        justify-content: space-between;
+    }
+
+
+    /* .item1 {
+        display: inline;
+        align-items: center;
+        justify-content: space-between;
+    } */
+
+
+
+    .menu>li {
+        background-color: #ffffff;
+        display: inline-block;
+        justify-content: space-between;
+    }
+
+    .box {
+        align-content: center;
+    }
+
+
+    .box1 {
+        margin-right: auto;
+        margin-left: auto;
+    }
     
+
+    
+    /* . {
+        flex-direction: column;
+        margin-right:auto;
+        margin-left: auto;
+        text-align: center;
+    } */
