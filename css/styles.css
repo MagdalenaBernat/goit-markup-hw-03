@@ -520,6 +520,11 @@
         margin-left: auto;    
     }
 
+
+    .space-between {
+        justify-content: space-between;
+    }
+
     /* .code {
             margin: 0px;
             padding: 0px;
