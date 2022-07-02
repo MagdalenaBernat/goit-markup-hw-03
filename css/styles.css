@@ -199,6 +199,11 @@
         text-transform: capitalize;
         color: #ffffff;
         background-color: #2f303a;
+        width: 696px;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        margin-left: -150px;
     }
 
 
@@ -470,7 +475,19 @@
         justify-content: space-between;
     }
 
+    .container-item-margin {
+        margin-left: 30px;
+    }
 
+
+
+    .block {
+        display: flex;
+        flex-wrap: wrap;
+        align-content:stretch;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
 
 
