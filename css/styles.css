@@ -54,7 +54,15 @@
         line-height: 1,17em;
         letter-spacing: 0,03em;
     }
-    
+
+
+    .letter-spacing {
+        margin-top: 60px;
+
+    }
+
+
+
 
     .index-button {
         display: block;
@@ -170,7 +178,6 @@
     
     .info3 {
         color: rgba(255, 255, 255, 0.6);
-        background-color: #2F303A;
         }
     
 
@@ -180,22 +187,41 @@
 
 
     .footer-style {
-        display: flex;
-        justify-content: left;
-        align-items: left;
+        display: inline-block;
+        justify-content: center;
+        align-items:flex-start
         margin: auto;
     }
 
 
-    .text-footer {
+    .text-footer1 {
         font-size: 14px;
         font-weight: 500;
-        line-height: 1, 17em;
+        line-height: 1,17em;
         color: #ffffff
     }
 
 
+    .space {
+        margin-top: 60px;
+    } 
 
+
+    .space1 {
+        margin-top: 20px;
+    }     
+
+
+    .space2 {
+        margin-top: 9px;
+        display: block;
+    } 
+
+
+    .space3 {
+        margin-top: 9px;
+        display: block;
+    } 
 
         /* Only in index.html */
 
@@ -360,9 +386,6 @@
         cursor: pointer;
     }
 
-    .letter-space {
-        
-    }
 
 
 /* Flexbox */
@@ -383,9 +406,21 @@
         align-items: center;
     }
 
+
+    .container1 {
+        max-width: 1200px; 
+        height: 252px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+
     .container-space {
         display: flex;
     }
+
 
     .section {
         padding-top: 94px;
@@ -406,6 +441,7 @@
         margin: auto;
     }
 
+
     .flex-column-main {
         display: flex;
         flex-direction: column;
@@ -413,6 +449,7 @@
         align-items: center;
         margin: auto;
     }
+
 
     .flex-column-footer {
         display: flex;
@@ -465,12 +502,14 @@
         margin: 15px;
     }
 
+
     .item2 {
         margin-left: auto;
         align-items: center;
 
     }
     
+
     .buttons-flex {
         display: flex;
         justify-content: center;
@@ -484,6 +523,7 @@
         padding: 10px;
         margin-left: 10px;
     } */
+
 
     .title-section {
         flex-direction: column;
@@ -538,6 +578,7 @@
         padding: 121px;
         }
     
+
     .margin-portfolio {
         margin-left: auto;    
     }
@@ -552,6 +593,7 @@
         display: inline-flex;
     }
 
+
     .div-inline {
         display: inline-flex;
         align-items: center;
@@ -559,12 +601,14 @@
         justify-content: space-around;
     }
     
+
     .div-inline-footer {
         display: inline-flex;
         align-items: center;
         width: 206px;
         justify-content: space-around;
         }
+
 
     .center {
         text-align: center;
