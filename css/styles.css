@@ -62,8 +62,6 @@
     }
 
 
-
-
     .index-button {
         display: block;
         color: #F5F4FA;
@@ -173,11 +171,19 @@
     .info2 {
         color: #ffffff;
         background-color: #2F303A;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1,17em;
+        color:#ffffff
+
     }
 
     
     .info3 {
         color: rgba(255, 255, 255, 0.6);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1,17em;
         }
     
 
@@ -222,6 +228,18 @@
         margin-top: 9px;
         display: block;
     } 
+
+    .space-portfolio {
+        margin-top: 94px;
+        margin-bottom: 50px;
+    }
+
+
+    .space-portfolio1 {
+        width: 1170px;
+        display: flex;
+        justify-content: space-between;
+    }
 
         /* Only in index.html */
 
