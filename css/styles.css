@@ -440,6 +440,15 @@
     }
 
 
+    .container-portfolio {
+        max-width: 1200px; 
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .section {
         padding-top: 94px;
         padding-bottom: 94px;
@@ -580,16 +589,36 @@
     }
 
 
-    .block {
+    .wrap {
         display: flex;
         flex-wrap: wrap;
-        align-content:stretch;
+        align-content:space-between;
         margin-left: auto;
         margin-right: auto;
-        max-width: ;
+        padding: 0 auto;
+    }
+
+    .tile {
+        padding: 0;
+        margin: 0;
     }
 
 
+    .tile2 {
+        padding-right: 30px;
+    }
+
+
+    .tile3 {
+        margin-bottom: 30px;
+    }
+
+
+    .tile4 {
+        margin-bottom: 94px;
+    }
+
+    
     .header-border {
         border-bottom: 1px solid #ECECEC;
         margin-left: auto;
