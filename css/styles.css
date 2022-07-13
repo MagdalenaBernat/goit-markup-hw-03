@@ -139,6 +139,7 @@
     .list {
         list-style-type: none;
         display: inline-block;
+        padding-left: 0;
     }
 
     .list-footer {
@@ -443,7 +444,6 @@
     .container-portfolio {
         max-width: 1200px; 
         margin: 0;
-        padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -470,11 +470,12 @@
 
 
     .flex-column-main {
+        max-width: 1200px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin: auto;
+        margin: 0 auto;
     }
 
 
@@ -580,7 +581,9 @@
     
 
     .container-margin {
-        justify-content: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 0;
     }
 
 
@@ -593,14 +596,13 @@
         display: flex;
         flex-wrap: wrap;
         align-content:space-between;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
         padding: 0 auto;
     }
 
     .tile {
-        padding: 0;
-        margin: 0;
+        padding: 0 auto;
+        margin: 0 auto;
     }
 
 
@@ -618,7 +620,7 @@
         margin-bottom: 94px;
     }
 
-    
+
     .header-border {
         border-bottom: 1px solid #ECECEC;
         margin-left: auto;
